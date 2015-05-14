@@ -5,6 +5,8 @@
 
 include device/generic/armv7-a-neon/BoardConfig.mk
 
+TARGET_ARCH_VARIANT := armv7-a-neon
+
 ifndef PDK_FUSION_PLATFORM_ZIP
 ifeq ($(HOST_OS),linux)
   WITH_DEXPREOPT := true
